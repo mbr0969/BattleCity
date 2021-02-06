@@ -33,6 +33,7 @@ std::shared_ptr<Renderer::ShaderProgram> ResourceManager::loadShaders(const std:
 		std::cerr << "No vertex shader on " << vertexPath << std::endl;
 		return nullptr;		
 	}
+	
 
 	std::string fragmentString = getFileString(fragmentPath);
 	if (fragmentPath.empty()) {
