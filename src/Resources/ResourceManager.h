@@ -1,9 +1,7 @@
 #pragma once
 #include <string>
 #include <memory>
-#include <map>
-
-
+#include <map> 
 namespace Renderer {class ShaderProgram; }
 
 class  ResourceManager {	
