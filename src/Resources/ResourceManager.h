@@ -1,9 +1,7 @@
 #pragma once
 #include <string>
 #include <memory>
-#include <map>
-
-
+#include <map> 
 namespace Renderer {class ShaderProgram; }
 
 class  ResourceManager {	
@@ -24,7 +22,5 @@ class  ResourceManager {
 		typedef  std::map<const std::string, std::shared_ptr<Renderer::ShaderProgram>> ShaderProgramMap;
 		ShaderProgramMap m_shaderPrograms;
 		std::string m_path;
-		
-	
 	
 };
